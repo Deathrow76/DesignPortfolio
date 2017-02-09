@@ -1,0 +1,46 @@
+.home-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 200px;
+}
+
+.img-holder {
+    width: 240px;
+    height: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    position: relative;
+
+}
+
+
+.img-holder span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 12px;
+    color: dimgray;
+}
+
+.card-container {
+    border-bottom-style: solid;
+    border-bottom-width: medium;
+    border-bottom-color: #f30053;
+}
+
+.card-container img {
+    -webkit-animation: fadein 3s;
+    animation: fadein 3s;
+}
+
+@-webkit-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}

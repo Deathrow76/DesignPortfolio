@@ -1,0 +1,26 @@
+
+.mui-appbar {
+    background-color: #2F2C44;
+    color: #ffffff;
+}
+
+.img-responsive {
+    max-width:100% !important;
+    height:auto;   !important;
+    display:block;
+}
+
+.content-container{
+    margin-left: -20px;
+    margin-right: -20px;
+
+}
+ .image {
+     width: 1160px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 50px;
+     margin-bottom: 50px;
+     -webkit-animation: fadein 3s;
+     animation: fadein 3s;
+ }

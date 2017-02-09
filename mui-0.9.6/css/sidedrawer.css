@@ -1,0 +1,179 @@
+
+html,
+body {
+    height: 100%;
+    background-color: #EBEAEB;
+}
+
+html,
+body,
+input,
+textarea,
+
+
+
+
+.buttons {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+
+
+/**
+ * Layout CSS
+ */
+#header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    transition: left 0.2s;
+}
+
+#sidedrawer {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    padding-right: 40px;
+    width: 296px;
+    left: -296px;
+    overflow: auto;
+    z-index: 2;
+    background-color: #fff;
+    transition: transform 0.2s;
+}
+
+#content-wrapper {
+    min-height: 100%;
+    overflow-x: hidden;
+    margin-left: 0px;
+    transition: margin-left 0.2s;
+
+    /* sticky bottom */
+    margin-bottom: -160px;
+    padding-bottom: 160px;
+}
+
+
+
+@media (min-width: 768px) {
+    #header {
+        left: 296px;
+    }
+
+    #sidedrawer {
+        transform: translate(296px);
+    }
+
+    #content-wrapper {
+        margin-left: 296px;
+    }
+
+    #footer {
+        margin-left: 296px;
+    }
+
+    body.hide-sidedrawer #header {
+        left: 0;
+    }
+
+    body.hide-sidedrawer #sidedrawer {
+        transform: translate(0px);
+    }
+
+    body.hide-sidedrawer #content-wrapper {
+        margin-left: 0;
+    }
+
+    body.hide-sidedrawer #footer {
+        margin-left: 0;
+    }
+}
+
+
+/**
+ * Toggle Side drawer
+ */
+#sidedrawer.active {
+    transform: translate(296px);
+}
+
+
+/**
+ * Header CSS
+ */
+.sidedrawer-toggle {
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 20px;
+    margin-right: 10px;
+}
+
+.sidedrawer-toggle:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/**
+ * Side drawer CSS
+ */
+#sidedrawer-brand {
+    padding-left: 20px;
+}
+
+#sidedrawer ul {
+    list-style: none;
+    text-align: right;
+    font-size: small;
+}
+
+#sidedrawer a {
+    color: #FF4081;
+    padding-right: 10px;
+}
+
+
+#sidedrawer > ul {
+    padding-left: 0px;
+}
+
+#sidedrawer > ul > li:first-child {
+    padding-top: 15px;
+    margin-bottom: -15px;
+}
+
+#sidedrawer strong {
+    display: block;
+    padding: 3px 10px;
+    cursor: pointer;
+    text-align: right;
+    font-size: 24px;
+    color: #000000;
+    font-family: "Helvetica Neue", Helvetica, Arial, Verdana, "Trebuchet MS";
+    font-weight: 200;
+}
+
+#sidedrawer strong:hover {
+    background-color: #E0E0E0;
+}
+
+#sidedrawer strong + ul > li {
+    padding: 6px 25px;
+}
+
+.social-container {
+    text-align: right;
+    margin-top: 55px;
+}
+
+
+.logo-container {
+    position: fixed;
+    bottom: 0px;
+    right: 40px;
+    padding-bottom: 20px;
+
+}
