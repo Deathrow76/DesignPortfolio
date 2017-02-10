@@ -110,6 +110,7 @@ textarea,
     font-size: 20px;
     line-height: 20px;
     margin-right: 10px;
+    margin-left: 15px;
 }
 
 .sidedrawer-toggle:hover {
@@ -171,9 +172,8 @@ textarea,
 
 
 .logo-container {
-    position: fixed;
-    bottom: 0px;
-    right: 40px;
-    padding-bottom: 20px;
-
+    margin-right: auto;
+    margin-left: auto;
+    text-align: right;
+    padding-top: 14px;
 }
