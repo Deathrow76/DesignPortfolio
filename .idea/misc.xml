@@ -11,7 +11,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectPlainTextFileTypeManager">
-    <file url="file://$PROJECT_DIR$/Server.js" />
+    <file url="file://$PROJECT_DIR$/server.js" />
   </component>
   <component name="ProjectRootManager" version="2" />
 </project>
