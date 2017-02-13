@@ -1,0 +1,25 @@
+{
+  "name": "designportfolio",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deathrow76/DesignPortfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Darrell McKee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Deathrow76/DesignPortfolio/issues"
+  },
+  "homepage": "https://github.com/Deathrow76/DesignPortfolio#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
