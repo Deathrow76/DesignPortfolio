@@ -158,7 +158,9 @@ textarea,
 }
 
 #sidedrawer strong:hover {
-    background-color: #E0E0E0;
+    background-color: #FF4081;
+    color: #fff;
+    font-weight: 400;
 }
 
 #sidedrawer strong + ul > li {
@@ -174,6 +176,6 @@ textarea,
 .logo-container {
     margin-right: auto;
     margin-left: auto;
-    text-align: right;
     padding-top: 14px;
+    text-align: -webkit-right;
 }

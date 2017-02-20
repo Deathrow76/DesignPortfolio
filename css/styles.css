@@ -45,6 +45,14 @@
      animation: fadein 3s;
  }
 
+.image-txt {
+    position: absolute;
+    font-size: 12px;
+    font-style: italic;
+    color: dimgray;
+    padding-top: 4px;
+}
+
 .big-title-home {
     font-size: 4.2vw;
     text-align: left;
