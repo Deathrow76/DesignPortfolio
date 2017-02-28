@@ -43,6 +43,7 @@
      margin-bottom: 50px;
      -webkit-animation: fadein 3s;
      animation: fadein 3s;
+     padding: 10px;
  }
 
 .image-txt {
@@ -54,6 +55,7 @@
 }
 
 .big-title-home {
+    font-size: 32px;
     font-size: 4.2vw;
     text-align: left;
     margin-top: 50px;
@@ -62,6 +64,7 @@
 }
 
 .big-title {
+    font-size: large;
     font-size: 4.2vw;
     text-align: center;
     margin-top: 100px;

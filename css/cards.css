@@ -20,12 +20,18 @@
     left: 0;
     font-size: 12px;
     color: dimgray;
+    max-width:100% !important;
+    height:auto;
+    display:block;
 }
 
 .card-container {
     border-bottom-style: solid;
     border-bottom-width: medium;
     border-bottom-color: #f30053;
+    max-width:100% !important;
+    height:auto;
+    display:block;
 }
 
 .card-container img {
