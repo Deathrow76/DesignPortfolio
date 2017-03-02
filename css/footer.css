@@ -145,12 +145,10 @@
     cursor: pointer;
     background-color:  #A8215C;
     border-radius: 2px;
-
     font-size: 20px;
     color: #ffffff;
     text-align: center;
     line-height: 35px;
-
     margin-right: 3px;
     margin-bottom: 5px;
 }
@@ -169,7 +167,7 @@
         display: block;
         width: 100%;
         margin-bottom: 40px;
-        text-align: center;
+        text-align: left;
     }
 
     .footer-distributed .footer-center i{

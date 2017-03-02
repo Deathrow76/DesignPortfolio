@@ -4,6 +4,14 @@
     color: #ffffff;
 }
 
+.top-logo {
+    width: 200px;
+}
+
+.bottom-logo {
+    width: 200px;
+}
+
 .img-responsive {
     max-width:100% !important;
     height:auto;
@@ -55,21 +63,29 @@
 }
 
 .big-title-home {
-    font-size: 32px;
-    font-size: 4.2vw;
+    font-size: 5.5vw;
+    line-height: 50px;
     text-align: left;
-    margin-top: 50px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 50px;
     font-weight: bold;
 }
 
+@media (max-width: 750px){ .big-title-home {font-size: 40px;line-height: 46px;text-align:left;margin-top: 20px;margin-bottom: 40px;font-weight: bold}}
+@media (max-width: 900px){ .big-title-home {font-size: 100px;line-height: 110px;text-align:left;margin-top: 20px;margin-bottom: 40px;font-weight: bold}}
+
 .big-title {
-    font-size: large;
-    font-size: 4.2vw;
+    font-size: 4vw;
+    line-height: 70px;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 45px;
     font-weight: bold;
 }
+
+@media (max-width: 750px){ .big-title {font-size: 40px;line-height: 20px;text-align:center;margin-top: 30px;margin-bottom: 40px;font-weight: bold}}
+@media (max-width: 900px){ .big-title {font-size: 60px;line-height: 60px;text-align:center;margin-top: 30px;margin-bottom: 40px;font-weight: bold}}
+
 
 .row-text-content {
     max-width: 700px;
