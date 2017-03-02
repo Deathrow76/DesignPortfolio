@@ -10,6 +10,7 @@
 
 .bottom-logo {
     width: 200px;
+    text-align: center;
 }
 
 .img-responsive {
@@ -129,4 +130,11 @@
     margin-top: -40px;
     margin-bottom: 30px;
     letter-spacing: 1px;
+}
+
+.blog-container {
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
 }
