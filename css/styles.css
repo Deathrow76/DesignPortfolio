@@ -6,6 +6,7 @@
 
 .top-logo {
     width: 200px;
+    height: 152px;
 }
 
 .bottom-logo {
@@ -123,6 +124,7 @@
 
 .bio-text-container {
     font-size: 20px;
+    margin-top: -32px;
 }
 
 .bio-sub-title {
@@ -138,3 +140,41 @@
     margin-left: auto;
     margin-top: 100px;
 }
+
+.resume-proflie-container {
+    text-align: center;
+}
+
+.resume-title {
+    font-size: 4vw;
+    line-height: 70px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+@media (max-width: 750px){ .resume-title {font-size: 40px;line-height: 20px;text-align:center;margin-top: 5px;margin-bottom: 10px;font-weight: bold}}
+@media (max-width: 900px){ .resume-title {font-size: 60px;line-height: 60px;text-align:center;margin-top: 5px;margin-bottom: 10px;font-weight: bold}}
+
+.resume-icons {
+    padding: 10px;
+}
+
+.resume-container {
+    max-width: 1150px;
+    padding: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+.resume-title-2 {
+    font-size: 3vw;
+    line-height: 70px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+@media (max-width: 750px){ .resume-title {font-size: 35px;line-height: 20px;text-align:center;margin-top: 5px;margin-bottom: 10px;font-weight: bold}}
+@media (max-width: 900px){ .resume-title {font-size: 55px;line-height: 60px;text-align:center;margin-top: 5px;margin-bottom: 10px;font-weight: bold}}

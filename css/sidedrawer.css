@@ -128,8 +128,8 @@ textarea,
 }
 
 #sidedrawer a {
-    color: #FF4081;
     padding-right: 4px;
+    color: #FF4081;
 }
 
 
@@ -158,6 +158,7 @@ textarea,
     background-color: #FF4081;
     color: #fff;
     font-weight: 400;
+    text-decoration: none;
 }
 
 #sidedrawer strong + ul > li {

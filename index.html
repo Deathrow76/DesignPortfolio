@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/mui.css" rel="stylesheet" type="text/css" />
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
     <script src="js/mui.js"></script>
     <script src="js/jquery-2.1.4.min.js"></script>
     <link href="css/sidedrawer.css" rel="stylesheet" type="text/css" />
@@ -14,50 +15,106 @@
     <link href="css/footer.css" rel="stylesheet" type="text/css" />
     <script src="js/sidedrawer.js"></script>
     <script src="js/dynamiccontent.js"></script>
+    <script src="js/bootstrap.js"></script>
 </head>
-<body>
-<div id="sidedrawer" class="mui-container-fluid">
-    <div id="sidedrawer-brand" class="mui--appbar-line-height">
-        <div class="logo-container">
-            <div class="top-logo">
-                <object data="img/LOGO-1.svg" type="image/svg+xml" class="top-logo"></object>
-            </div>    
+<body id="top">
+    <div id="sidedrawer" class="mui-container-fluid">
+        <div id="sidedrawer-brand" class="mui--appbar-line-height">
+            <div class="logo-container">
+                <div class="top-logo">
+                    <object data="img/LOGO-1.svg" type="image/svg+xml" class="top-logo"></object>
+                </div>    
+            </div>
         </div>
-    </div>
-    <ul style="margin-top: -10px; margin-bottom: -2px;">
-        <li>
-            <a href="javascript:ajaxpage('home.html', 'rightcolumn');"><strong>Home</strong></a>
-        </li>
-        <li class="li-padding">
-            <strong>UX / UI</strong>
-            <ul>
-                <li><a href="javascript:ajaxpage('ux-act.html', 'rightcolumn');">Adjustment Credit Tool</a></li>
-                <li><a href="javascript:ajaxpage('ux-cbui.html', 'rightcolumn');">Customer Billing</a></li>
-                <li><a href="javascript:ajaxpage('ux-cbui-toolkit.html', 'rightcolumn');">Customer Billing-Toolkit</a></li>
-                <li><a href="javascript:ajaxpage('ux-internship.html', 'rightcolumn');">Internship Program</a></li>
-                <li><a href="javascript:ajaxpage('ux-fill-a-box.html', 'rightcolumn');">Fill a Box</a></li>
-                <li><a href="javascript:ajaxpage('ux-8808-crossfit.html', 'rightcolumn');">8808 Crossfit</a></li>
-            </ul>
-        </li>
-        <li class="li-padding">
-            <strong>Graphic Design</strong>
-            <ul>
-                <li><a href="javascript:ajaxpage('graphicdesign-aloft.html', 'rightcolumn');">Aloft Hotel</a></li>
-                <li><a href="javascript:ajaxpage('graphicdesign-stash.html', 'rightcolumn');">Stash Magazine</a></li>
-                <li><a href="javascript:ajaxpage('graphicdesign-21insa.html', 'rightcolumn');">21inSA</a></li>
-                <li><a href="javascript:ajaxpage('graphicdesign-ivory.html', 'rightcolumn');">Ivory Lounge</a></li>
-            </ul>
-        </li>
-        <li class="li-padding">
-            <a href="javascript:ajaxpage('logodesign.html', 'rightcolumn');"><strong>Logos</strong></a>
-        </li>
-        <li class="li-padding">
-            <a href="javascript:ajaxpage('photography.html', 'rightcolumn');"><strong>Photography</strong></a>
-        </li>
-        <li class="li-padding">
-            <a href="javascript:ajaxpage('3Ddesign.html', 'rightcolumn');"><strong>3D Modeling</strong></a>
-    </ul>
-</div>
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="panel panel-default"  style="margin-bottom: -30px;">
+            <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <a href="javascript:ajaxpage('home.html', 'rightcolumn');"><strong>Home</strong></a>
+                </a>
+            </h4>
+            </div>
+        </div>
+        <div class="panel panel-default" style="margin-bottom: -30px;">
+            <div class="panel-heading" role="tab" id="headingTwo">
+            <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <strong>UX / UI</strong>
+                </a>
+            </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+            <div class="panel-body" style="margin-top: -30px; padding-bottom: 16px; padding-top: 10px;">
+                    <ul>
+                        <li><a href="javascript:ajaxpage('ux-act.html', 'rightcolumn');">Adjustment Credit Tool</a></li>
+                        <li><a href="javascript:ajaxpage('ux-cbui.html', 'rightcolumn');">Customer Billing</a></li>
+                        <li><a href="javascript:ajaxpage('ux-cbui-toolkit.html', 'rightcolumn');">Customer Billing-Toolkit</a></li>
+                        <li><a href="javascript:ajaxpage('ux-internship.html', 'rightcolumn');">Internship Program</a></li>
+                        <li><a href="javascript:ajaxpage('ux-fill-a-box.html', 'rightcolumn');">Fill a Box</a></li>
+                        <li><a href="javascript:ajaxpage('ux-8808-crossfit.html', 'rightcolumn');">8808 Crossfit</a></li>
+                    </ul>      
+            </div>
+            </div>
+        </div>
+        <div class="panel panel-default" style="margin-bottom: -30px;">
+            <div class="panel-heading" role="tab" id="headingThree">
+            <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <strong>Graphic Design</strong>
+                </a>
+            </h4>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div class="panel-body" style="margin-top: -30px; padding-bottom: 16px; padding-top: 10px;">
+                    <ul>
+                        <li><a href="javascript:ajaxpage('graphicdesign-aloft.html', 'rightcolumn');">Aloft Hotel</a></li>
+                        <li><a href="javascript:ajaxpage('graphicdesign-stash.html', 'rightcolumn');">Stash Magazine</a></li>
+                        <li><a href="javascript:ajaxpage('graphicdesign-21insa.html', 'rightcolumn');">21inSA</a></li>
+                        <li><a href="javascript:ajaxpage('graphicdesign-ivory.html', 'rightcolumn');">Ivory Lounge</a></li>
+                    </ul>
+            </div>
+            </div>
+        </div>
+            <div class="panel panel-default" style="margin-bottom: -30px;">
+            <div class="panel-heading" role="tab" id="headingFour">
+            <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                <a href="javascript:ajaxpage('logodesign.html', 'rightcolumn');"><strong>Logos</strong></a>
+                </a>
+            </h4>
+            </div>
+        </div>
+            <div class="panel panel-default" style="margin-bottom: -30px;">
+            <div class="panel-heading" role="tab" id="headingFive">
+            <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                <a href="javascript:ajaxpage('photography.html', 'rightcolumn');"><strong>Photography</strong></a>
+                </a>
+            </h4>
+            </div>
+        </div>
+                <div class="panel panel-default" style="margin-bottom: -30px;">
+            <div class="panel-heading" role="tab" id="headingSix">
+            <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                <a href="javascript:ajaxpage('3Ddesign.html', 'rightcolumn');"><strong>3D Modeling</strong></a>
+                </a>
+            </h4>
+            </div>
+        </div>
+                <div class="panel panel-default" style="margin-bottom: -30px;">
+            <div class="panel-heading" role="tab" id="headingSeven">
+            <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSix">
+                <a href="javascript:ajaxpage('resume.html', 'rightcolumn');"><strong>Resume</strong></a>
+                </a>
+            </h4>
+            </div>
+        </div>
+     </div>
+ </div>
+
 <header id="header">
     <div class="mui-appbar mui--appbar-line-height">
         <div class="mui-container-fluid">
@@ -94,7 +151,7 @@
             </div>
             <div>
                 <i class="fa fa-envelope"></i>
-                <p><a href="mailto:hello@darrellmckee.com">hello@mckeethedesigner.com</a></p>
+                <p><a href="mailto:darr_mc76@hotmail.com">hello@mckeethedesigner.com</a></p>
             </div>
         </div>
         <div class="footer-right">
@@ -114,5 +171,15 @@
 </body>
 <script>
     $( "#rightcolumn" ).load( "home.html" );
+</script>
+<script>
+var timeOut;
+function scrollToTop() {
+	if (document.body.scrollTop!=0 || document.documentElement.scrollTop!=0){
+		window.scrollBy(0,-50);
+		timeOut=setTimeout('scrollToTop()',10);
+	}
+	else clearTimeout(timeOut);
+}
 </script>
 </html>
