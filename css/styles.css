@@ -165,7 +165,7 @@
     padding: 25px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 .resume-title-2 {
@@ -176,5 +176,45 @@
     margin-bottom: 24px;
     font-weight: bold;
 }
-@media (max-width: 750px){ .resume-title {font-size: 35px;line-height: 20px;text-align:center;margin-top: 5px;margin-bottom: 10px;font-weight: bold}}
-@media (max-width: 900px){ .resume-title {font-size: 55px;line-height: 60px;text-align:center;margin-top: 5px;margin-bottom: 10px;font-weight: bold}}
+@media (max-width: 750px){ .resume-title-2{font-size: 35px;line-height: 20px;text-align:center;margin-top: 5px;margin-bottom: 10px;font-weight: bold}}
+@media (max-width: 900px){ .resume-title-2 {font-size: 55px;line-height: 60px;text-align:center;margin-top: 5px;margin-bottom: 10px;font-weight: bold}}
+
+
+
+.progress {
+    position: relative;
+	height: 25px;
+}
+.progress > .progress-type {
+	position: absolute;
+	left: 0px;
+	font-weight: 400;
+	padding: 0px 30px 2px 10px;
+	color: rgb(255, 255, 255);
+	background-color: rgba(25, 25, 25, 0.2);
+}
+.progress > .progress-completed {
+	position: absolute;
+	right: 0px;
+	font-weight: 400;
+	padding: 3px 10px 2px;
+}
+
+
+.item-content-block {
+    display:block;
+}
+
+.tags a {
+    background-color:#FF4081; 
+    padding:10px; 
+    color:#fff; 
+    display:inline-block; 
+    font-size:11px; 
+    text-transform:uppercase; 
+    line-height:11px; 
+    border-radius:2px; 
+    margin-bottom:5px; 
+    margin-right:2px; 
+    text-decoration:none;
+}
