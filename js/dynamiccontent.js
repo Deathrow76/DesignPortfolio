@@ -28,10 +28,17 @@ function ajaxpage(url, containerid){
     page_request.send(null)
 }
 
+
+
+
 function loadpage(page_request, containerid){
     if (page_request.readyState == 4 && (page_request.status==200 || window.location.href.indexOf("http")==-1))
         document.getElementById(containerid).innerHTML=page_request.responseText
 }
+
+
+
+
 
 function loadobjs(){
     if (!document.getElementById)
