@@ -129,7 +129,7 @@
 
 .bio-sub-title {
     font-size: 28px;
-    margin-top: -40px;
+    margin-top: -20px;
     margin-bottom: 30px;
     letter-spacing: 1px;
 }
@@ -217,4 +217,25 @@
     margin-bottom:5px; 
     margin-right:2px; 
     text-decoration:none;
+}
+
+.img-holder-modal {
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    position: relative;
+
+}
+
+.img-holder-modal span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 12px;
+    color: dimgray;
+    max-width:100% !important;
+    height:auto;
+    display:block;
 }

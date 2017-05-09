@@ -30,9 +30,9 @@
     <div class="mui-col-xs-12 mui-col-md-3">
         <div class="img-holder">
             <div class="card-container">
-                <img class="img-responsive" src="img/aloft-c.png">
+                <img class="img-responsive" src="img/styleguide-c.png" data-toggle="modal" data-target=".cbui-modal-lg" style="cursor: pointer">
             </div>
-            <span>Aloft Hotel</span>
+            <span>UX CBUI Style Guide</span>
         </div>
     </div>
     <div class="mui-col-xs-12 mui-col-md-3">
@@ -98,3 +98,36 @@
 </div>
 </div>
 <br style="margin-bottom: 40px;">
+
+<!-- Large modal -->
+<div class="modal fade cbui-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span style="float: left"><h1>Developer Styleguide</h1></span>
+                <button type="button" class="mui-btn mui-btn--accent" data-dismiss="modal" aria-label="Close" style="float: right; margin-top: 22px">
+                    <i class="fa fa-times fa-2x" aria-hidden="true" style="margin-top: 4px"></i>
+                </button>         
+            </div>
+            <div class="modal-body" style="max-height: 500px; overflow-x: scroll">
+                <img class="img-responsive" src="img/styleguide-Large.jpg">
+            </div>
+            <div class="modal-footer">
+                CBUI Developer Style Guide
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    $('#exampleModal').on('show.bs.modal', function (event) {
+  var button = $(event.relatedTarget) // Button that triggered the modal
+  var recipient = button.data('whatever') // Extract info from data-* attributes
+  // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+  // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+  var modal = $(this)
+  modal.find('.modal-title').text('New message to ' + recipient)
+  modal.find('.modal-body input').val(recipient)
+})
+</script>
