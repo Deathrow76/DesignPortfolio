@@ -2,6 +2,8 @@
 .mui-appbar {
     background-color: #2F2C44;
     color: #ffffff;
+    border-bottom-color: #F50057;
+    border-bottom-style: solid;
 }
 
 .top-logo {
@@ -12,6 +14,11 @@
 .bottom-logo {
     width: 200px;
     text-align: center;
+}
+
+.my-work{
+    margin-left: 6px;
+    margin-bottom: -18px;
 }
 
 .img-responsive {
@@ -64,14 +71,6 @@
     padding-top: 4px;
 }
 
-.big-title-home {
-    font-size: 5.5vw;
-    line-height: 50px;
-    text-align: left;
-    margin-top: 20px;
-    margin-bottom: 50px;
-    font-weight: bold;
-}
 
 @media (max-width: 750px){ .big-title-home {font-size: 40px;line-height: 46px;text-align:left;margin-top: 20px;margin-bottom: 40px;font-weight: bold}}
 @media (max-width: 900px){ .big-title-home {font-size: 100px;line-height: 110px;text-align:left;margin-top: 20px;margin-bottom: 40px;font-weight: bold}}
@@ -119,19 +118,36 @@
     padding: 25px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
+
 }
 
+.bio-pic-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 .bio-text-container {
-    font-size: 20px;
-    margin-top: -32px;
+    font-size: 15px;
+    line-height: 28px;
 }
 
 .bio-sub-title {
     font-size: 28px;
+    line-height: 30px;
     margin-top: -20px;
     margin-bottom: 30px;
     letter-spacing: 1px;
+}
+
+.text-name-box {
+    background-color: #2F2C44;
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .blog-container {
@@ -142,14 +158,13 @@
 }
 
 .resume-proflie-container {
-    text-align: center;
+    text-align: left;
 }
 
 .resume-title {
-    font-size: 4vw;
+    font-size: 3vw;
     line-height: 70px;
-    text-align: center;
-    margin-top: 10px;
+    text-align: left;
     font-weight: bold;
 }
 
@@ -173,7 +188,6 @@
     line-height: 70px;
     text-align: left;
     margin-top: 10px;
-    margin-bottom: 24px;
     font-weight: bold;
 }
 @media (max-width: 750px){ .resume-title-2{font-size: 35px;line-height: 20px;text-align:center;margin-top: 5px;margin-bottom: 10px;font-weight: bold}}

@@ -1846,11 +1846,11 @@ th {
 }
 
 .mui-tabs__bar > li.mui--is-active {
-  border-bottom: 2px solid #2196F3;
+  border-bottom: 2px solid #F50057;
 }
 
 .mui-tabs__bar > li.mui--is-active > a {
-  color: #2196F3;
+  color: #F50057;
 }
 
 .mui-tabs__bar.mui-tabs__bar--justified {
