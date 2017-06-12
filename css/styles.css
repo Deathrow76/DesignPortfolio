@@ -7,8 +7,9 @@
 }
 
 .top-logo {
-    width: 200px;
-    height: 152px;
+margin-left:20px;
+margin-top:20px;
+margin-bottom: 
 }
 
 .bottom-logo {
@@ -78,9 +79,9 @@
 .big-title {
     font-size: 4vw;
     line-height: 70px;
-    text-align: center;
+    text-align: left;
     margin-top: 50px;
-    margin-bottom: 45px;
+    margin-bottom: 30px;
     font-weight: bold;
 }
 
@@ -114,7 +115,6 @@
 }
 
 .bio-container {
-    max-width: 1150px;
     padding: 25px;
     margin-left: auto;
     margin-right: auto;
